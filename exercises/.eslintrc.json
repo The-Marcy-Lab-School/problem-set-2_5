@@ -16,6 +16,7 @@
     },
     "rules": {
       "no-console": "off",
-      "func-names": "off"
+      "func-names": "off",
+      "space-before-function-paren": "off"
     }
 }

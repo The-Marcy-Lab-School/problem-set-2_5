@@ -13,65 +13,67 @@ const indexOf = function() {
 
 };
 
-// Question 4 
+// Question 4
 const join = function() {
 
 };
 
-// Question 5 
+// Question 5
 const push = function() {
 
 };
 
-// Question 6 
+// Question 6
 const pop = function() {
 
 };
 
-// Question 7 
+// Question 7
 const unshift = function() {
 
 };
 
-// Question 8 
+// Question 8
 const shift = function() {
 
 };
 
-// Question 9 
+// Question 9
 const lastIndexOf = function() {
 
 };
 
-// Question 10 
+// Question 10
 const slice = function() {
 
 };
 
-// Question 11 
+// Question 11
 const splice = function() {
 
 };
 
-// Question 12 
+// Question 12
 const spliceForReal = function() {
 
 };
 
-// Question 13 
+// Question 13
 const concat = function() {
 
 };
 
-// Question 14 
+// Question 14
 const shallowCompare = function() {
 
 };
 
-// Question 15j 
+// Question 15
 const deepCompare = function() {
 
 };
+
+shoutout();
 
 // Write all your code ABOVE this line
 module.exports = {
