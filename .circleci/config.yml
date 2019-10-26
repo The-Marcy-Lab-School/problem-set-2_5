@@ -22,7 +22,7 @@ jobs:
           command: |
             cd exercises
             npm install
-            eslint exercises.js
+            ./node_modules/.bin/eslint exercises.js
             
 workflows:
   version: 2.1
