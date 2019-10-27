@@ -1,7 +1,10 @@
 // Question 1
-const shoutout = function() {
+const shoutOut = function (){
+  let items = ['bottle','headphones','keys'];
+  console.log(items);
+}
 
-};
+shoutOut();
 
 // Question 2
 const reverseArray = function() {
