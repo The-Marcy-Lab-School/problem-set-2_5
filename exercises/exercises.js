@@ -1,15 +1,22 @@
 // Question 1
-const shoutOut = function (){
-  let items = ['bottle','headphones','keys'];
-  console.log(items);
+const shoutOut = function(items){
+    for (let i =0; i < items.length; i += 1){
+        
+        console.log(items[i]);
+    }
 }
-
 shoutOut();
 
 // Question 2
-const reverseArray = function() {
-
-};
+const reverseArray = function(contents){
+  let newContents=[];
+  for (let i = contents.length - 1 ; i >= 0; i -= 1){ 
+      // newContents.push(contents[i]);
+      console.log(contents[i]);
+   } 
+    return newContents;
+}
+reverseArray(['paul','mark','reuben']);
 
 // Question 3
 const indexOf = function() {
