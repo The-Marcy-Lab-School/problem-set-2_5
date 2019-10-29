@@ -11,11 +11,14 @@ shoutOut();
 const reverseArray = function(contents){
   let newContents=[];
   for (let i = contents.length - 1 ; i >= 0; i -= 1){ 
-      // newContents.push(contents[i]);
-      console.log(contents[i]);
+      newContents.push(contents[i]);
+      
    } 
     return newContents;
 }
+
+
+
 reverseArray(['paul','mark','reuben']);
 
 // Question 3
