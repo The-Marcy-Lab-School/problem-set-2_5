@@ -34,19 +34,29 @@ const indexOf = function(array, value){
 // indexOf();
 
 // Question 4
-const join = function() {
-
-};
+const join = function (array, separator = ','){
+  let word = '';
+  for (let i = 0; i < array.length; i += 1){
+    word = word + array[i];
+    if(i < array.length - 1){
+      word = word + separator;
+    }    
+  }
+  return word;
+}
 
 // Question 5
-const push = function() {
-
-};
+const push = function (array, value){
+  array[array.length] = value
+  return array.length
+}
 
 // Question 6
-const pop = function() {
-
-};
+const pop = function(array){
+ let popOff = array[array.length - 1]
+  array.length -= 1;
+  return popOff
+}
 
 // Question 7
 const unshift = function() {
