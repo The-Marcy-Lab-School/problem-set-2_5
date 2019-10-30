@@ -11,4 +11,4 @@ Answer: When an array is _passed by reference_ in JavaScript a pointer is pointi
 Answer: To destructure a JavaScript Array is to take each elements in an array thats group together and make those elements it's own element.
 
 **3. What is the purpose of _rest parameters_? How do we use them? Use a code snippet to illustrate your response. Lastly, explain how do they differ from the `arguments` object?**
-Answer: The purpose of _rest parameters_ is to use when we want our function to take an indefinite number of arguments. We use them when declaring our function and it is used on the last parameter. They differ from the `arguments` object because the `arguments` object is array like and not an actual array. 
+Answer: The purpose of _rest parameters_ is to be able to use our function whenever we want to take an indefinite number of arguments. We use them when declaring our function and it is used on the last parameter. They differ from the `arguments` object because the `arguments` object is arraylike and not an array.
