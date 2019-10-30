@@ -1,11 +1,10 @@
-// Question 1
+// // Question 1
 const shoutOut = function(items){
-    for (let i =0; i < items.length; i += 1){
-        
-        console.log(items[i]);
-    }
+  for (let i =0; i < items.length; i += 1){
+    console.log(items[i]);
+  }
 }
-shoutOut();
+shoutOut([2, 5]);
 
 // Question 2
 const reverseArray = function(contents){
@@ -14,17 +13,25 @@ const reverseArray = function(contents){
       newContents.push(contents[i]);
       
    } 
-    return newContents;
+  return newContents;
 }
 
 
 
-reverseArray(['paul','mark','reuben']);
+reverseArray([1,2,3,4]);
 
 // Question 3
-const indexOf = function() {
-
+const fam = ['paul','mom','dad','cat'];
+const indexOf = function(array, value){
+  for (let i = 0; i < array.length; i +=1){
+    if (array[i] === value){
+      return i;
+    }
+  } 
+  return -1;
 };
+
+// indexOf();
 
 // Question 4
 const join = function() {
@@ -86,7 +93,7 @@ const deepCompare = function() {
 
 };
 
-shoutout();
+
 
 // Write all your code ABOVE this line
 module.exports = {
