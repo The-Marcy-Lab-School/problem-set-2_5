@@ -107,33 +107,50 @@ const splice = function(array, start, deleteCount) {
 
 // Question 12
 const spliceForReal = function(array, start, deleteCount, ...insert) {
-let cutValues = slice(array, start, start + deleteCount);
- splice(array, start);
- let rhs = slice(array,start);
- array.length = start;
- for (let i = 0;  i < insert.length; i += 1){
-   push(array, insert[i]);
+  let splicedArray = splice(array, start, deleteCount);
+  let rhs = slice(array,1);
+  splicedArray.length = 1;
+  
+  for (let i = 0;  i < insert.length; i += 1){
+   push(splicedArray, insert[i]);
  }
  for(let i = 0; i < rhs.length; i+= 1 ) {
-   push(array, rhs[i]);
+   push(splicedArray, rhs[i]);
  }
- return cutValues;
+ return splicedArray;
   
 };
 
 // Question 13
-const concat = function() {
-
+const concat = function(array,arrayTwo){
+  for(let i = 0; i < arrayTwo.length; i += 1){
+    push(array,arrayTwo[i]);
+  }
+  return array;
 };
 
 // Question 14
-const shallowCompare = function() {
-
+const shallowCompare = function(array,arrayTwo) {
+  for(let i = 0; i < array.length; i += 1){
+    if (array[i] != arrayTwo[i]){
+      return false;
+    }
+  }
+  return true;
 };
 
 // Question 15
-const deepCompare = function() {
-
+const deepCompare = function(array, arrayTwo) {
+  if (array.length !== arrayTwo.length) return false;
+  
+  for (let i= 0; i < array.length; i += 1){
+    if(Array.isArray(array[i])){
+      if(!shallowCompare(array[i], arrayTwo[i])) return false;
+    } else {
+      if (array[i] !== arrayTwo[i]) return false;
+    }
+  }
+  return true;
 };
 
 
