@@ -46,14 +46,6 @@ const unshift = function() {
 
 // Question 8
 const shift = function(arr) {
-  let shifted = arr[0];
-
-  for (let i = 0; i < arr.length - 1; i += 1) {
-    arr[i] = arr[i + 1];
-  }
-  arr.length -= 1;
-
-  return shifted;
 };
 
 // Question 9
@@ -63,43 +55,22 @@ const lastIndexOf = function() {
 
 // Question 10
 const slice = function(arr, start = 0, end = arr.length) {
-  let sliced = [];
+  let slicedArray = [];
 
-  for (let i = start; i < end; i += 1) {
-    push(sliced, arr[i]);
+  for(let i = start; i < end; i += 1) {
+    push(slicedArray, arr[i]);
   }
 
-  return sliced;
+  return slicedArray;
 };
 
 // Question 11
-const splice = function(arr, start, deleteCount) {
-  let cutValues = slice(arr, start, start + deleteCount);
-  
-  for (let i = start; i < arr.length; i += 1) {
-    arr[i] = arr[i + deleteCount];
-  }
-
-  arr.length = arr.length - deleteCount;
-  return cutValues;
+const splice = function() {
 };
 
 
 // Question 12
-const spliceForReal = function(arr, start, deleteCount, ...newItems) {
-  let cutValues = slice(arr, start, start + deleteCount);
-
-  splice(arr, start, deleteCount);
-  let rhs = slice(arr, start);
-  arr.length = start;
-
-  for (let i = 0; i < newItems.length; i += ) {
-    push(arr, newItems[i]);
-  }
-  for (let i = 0; i < rhs.length; i += ) {
-    push(arr, rhs[i]);
-  }
-  return cutValues;
+const spliceForReal = function() {
 };
 
 // Question 13
@@ -108,13 +79,31 @@ const concat = function() {
 };
 
 // Question 14
-const shallowCompare = function() {
+const shallowCompare = function(arr1, arr2) {
+  if (arr1.length !== arr2.length) return false;
 
-};
+  for (let i = 0; i < arr1.length; i += 1) {
+    if (arr1[i] !== arr2[i]) {
+      return false;
+    }
+  }
+
+  return true;
+}
 
 // Question 15
-const deepCompare = function() {
+const deepCompare = function(arr1, arr2) {
+  if (arr1.length !== arr2.length) return false;
 
+  for (let i = 0; i < arr1.length; i += 1) {
+    if (Array.isArray(arr1[i])) {
+      if (!shallowCompare(arr1[i], arr2[i])) return false;
+    } else {
+      if (arr1[i] !== arr2[i]) return false;
+    }
+  }
+
+  return true;
 };
 
 shoutout();

@@ -10,7 +10,7 @@
 3. Run `npm install` to load project dependencies.
 4. Complete coding exercises in the `exercises.js` file.
 5. Test your code often by running `npm test`.
-6. Check for style by running `eslint exercises.js` in the terminal.
+6. Check for style by running `./node_modules/.bin/eslint exercises.js` in the terminal.
 
    **Note:** You are not done with your exercises until all tests pass and there are no eslint errors.
 
