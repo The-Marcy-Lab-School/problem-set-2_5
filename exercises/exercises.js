@@ -4,7 +4,7 @@ const shoutOut = function(items){
     console.log(items[i]);
   }
 }
-shoutOut([2, 5]);
+
 
 // Question 2
 const reverseArray = function(contents){
@@ -30,7 +30,7 @@ const indexOf = function(array, value){
   return -1;
 };
 
-// indexOf();
+
 
 // Question 4
 const join = function (array, separator = ','){
