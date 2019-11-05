@@ -107,17 +107,17 @@ const splice = function(array, start, deleteCount) {
 
 // Question 12
 const spliceForReal = function(array, start, deleteCount, ...insert) {
-  let splicedArray = splice(array, start, deleteCount);
-  let rhs = slice(array,1);
-  splicedArray.length = 1;
+  let deletedValues = splice(array, start, deleteCount);
+  let rhs = slice(array,start);
+  array.length = start;
   
   for (let i = 0;  i < insert.length; i += 1){
-   push(splicedArray, insert[i]);
+   push(array, insert[i]);
  }
  for(let i = 0; i < rhs.length; i+= 1 ) {
-   push(splicedArray, rhs[i]);
+   push(array, rhs[i]);
  }
- return splicedArray;
+ return deletedValues;
   
 };
 

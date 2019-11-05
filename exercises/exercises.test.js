@@ -93,14 +93,14 @@ test('Question 11: splice mutates original array', () => {
 
 // Question 12
 test('Question 12: spliceForReal', () => {
-  const months = ['Jan', 'February', 'March', 'April', 'May', 'June'];
+  let months = ['Jan', 'February', 'March', 'April', 'May', 'June'];
   expect(exercises.spliceForReal(months, 1, 2, 'Febrero', 'Marzo')).toEqual(['February', 'March']);
-
+  months = ['Jan', 'February', 'March', 'April', 'May', 'June'];
+  
   exercises.spliceForReal(months, 1, 2, 'Febrero', 'Marzo');
   expect(months).toEqual(['Jan', 'Febrero', 'Marzo', 'April', 'May', 'June']);
 
   const days = ['sun', 'thur', 'fri', 'sat'];
-  expect(exercises.spliceForReal(days, 1, 0, 'mon', 'tues', 'wed')).toEqual([]);
 
   exercises.spliceForReal(days, 1, 0, 'mon', 'tues', 'wed');
   expect(days).toEqual(['sun', 'mon', 'tues', 'wed', 'thur', 'fri', 'sat']);
