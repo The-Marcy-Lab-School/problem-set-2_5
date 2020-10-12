@@ -8,9 +8,9 @@ There are two parts to this problem set:
 
 **For Coding Exercises:**
 1. Your coding exercises live in the `problems` directory. Here, we have four files:
-    * `exercises.js` //Where you will code your solutions
-    * `exercises.test.js` //Your test file
-    * `README.md` //The instructions and prompts for your exercises.
+    * `exercises.js` Where you will code your solutions
+    * `exercises.test.js` Your test file
+    * `README.md` The instructions and prompts for your exercises.
     * `index.html`
     
 2. From your project's root folder, run `npm install` to load project dependencies.
