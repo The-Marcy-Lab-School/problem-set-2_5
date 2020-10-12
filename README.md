@@ -7,7 +7,12 @@ There are two parts to this problem set:
 * JavaScript Array exercises
 
 **For Coding Exercises:**
-1. Your coding exercises live in the `problems` directory in the `exercises.js` file.
+1. Your coding exercises live in the `problems` directory. Here, we have four files:
+    * `exercises.js` //Where you will code your solutions
+    * `exercises.test.js` //Your test file
+    * `README.md` //The instructions and prompts for your exercises.
+    * `index.html`
+    
 2. From your project's root folder, run `npm install` to load project dependencies.
 3. Test your code often by running `npm test`.
 4. Check for style by running `./node_modules/.bin/eslint problems/exercises.js` in the terminal.
