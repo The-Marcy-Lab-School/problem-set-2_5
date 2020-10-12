@@ -17,6 +17,7 @@
     "rules": {
       "no-console": "off",
       "func-names": "off",
-      "space-before-function-paren": "off"
+      "space-before-function-paren": "off",
+      "arrow-parens": ["error", "as-needed"]
     }
 }
