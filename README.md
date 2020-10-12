@@ -2,21 +2,23 @@
 ## JavaScript Array Fundamentals
 
 ### Directions
-1. Fork and clone this lab
+There are two parts to this problem set:
+* A written response section
+* JavaScript Array exercises
 
 **For Coding Exercises:**
+1. Your coding exercises live in the `problems` directory in the `exercises.js` file.
+2. From your project's root folder, run `npm install` to load project dependencies.
+3. Test your code often by running `npm test`.
+4. Check for style by running `./node_modules/.bin/eslint problems/exercises.js` in the terminal.
+5. You are not done with your exercises until all tests pass and there are no eslint errors.
 
-2. Navigate to the `exercises` directory to complete the coding exercises.
-3. Run `npm install` to load project dependencies.
-4. Complete coding exercises in the `exercises.js` file.
-5. Test your code often by running `npm test`.
-6. Check for style by running `./node_modules/.bin/eslint exercises.js` in the terminal.
-
-   **Note:** You are not done with your exercises until all tests pass and there are no eslint errors.
+   **Note:** We have provided an `index.html` so that you can run your code in the browser and use Chrome Dev tools.
 
 **For Short Responses:**
+1. Your written response questions live in the `short-response.md` file. 
+2. Record your answers without removing the original questions. 
+3. Use complete sentences and style appropriately with markdown.
 
-7. Navigate to the `short-response` directory
-8. Write your responses directly in the `README.md` file. As you commit and push changes, you will see your rendered markdown on GitHub.
 
-9. When you are done with both sections. Push your final commits and open a PR.
+When you are done with both sections. Push your final commits and submit your URL through Canvas.

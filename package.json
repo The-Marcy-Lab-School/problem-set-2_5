@@ -2,7 +2,7 @@
   "name": "problem-set-2_5",
   "version": "1.0.0",
   "description": "Exercises for Unit 2 Lesson 5 on Array Fundamentals",
-  "main": "exercises.js",
+  "main": "problems/exercises.js",
   "scripts": {
     "test": "jest"
   },
