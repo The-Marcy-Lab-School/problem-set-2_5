@@ -15,7 +15,7 @@ There are two parts to this problem set:
     
 2. From your project's root folder, run `npm install` to load project dependencies.
 3. Test your code often by running `npm test`.
-4. Check for style by running `./node_modules/.bin/eslint problems/exercises.js` in the terminal.
+4. Check for style by running `eslint problems/exercises.js` in the terminal. If you get an error `eslint: command not found`, run `npm install -g eslint` first.
 5. You are not done with your exercises until all tests pass and there are no eslint errors.
 
    **Note:** We have provided an `index.html` so that you can run your code in the browser and use Chrome Dev tools.
