@@ -4,27 +4,27 @@ const shoutout = function() {
 };
 
 // Question 2
-const reverseArray = function() {
-
-};
-
-// Question 3
-const indexOf = function() {
-
-};
-
-// Question 4
-const join = function() {
-
-};
-
-// Question 5
 const push = function() {
 
 };
 
-// Question 6
+// Question 3
 const pop = function() {
+
+};
+
+// Question 4
+const reverseArray = function() {
+
+};
+
+// Question 5
+const indexOf = function() {
+
+};
+
+// Question 6
+const join = function() {
 
 };
 

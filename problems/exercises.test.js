@@ -1,44 +1,44 @@
 const exercises = require('./exercises');
 
 // Question 2
-test('Question 2: reverseArray reverses array', () => {
+test('Question 2: push', () => {
+  const testArr = [true, '41', 'steph'];
+  expect(exercises.push(testArr, 'maya')).toBe(4);
+  expect(testArr).toEqual([true, '41', 'steph', 'maya']);
+});
+
+// Question 3
+test('Question 3: pop', () => {
+  const letters = ['a', 'b', 'c', 'd'];
+  expect(exercises.pop(letters)).toBe('d');
+  expect(letters).toEqual(['a', 'b', 'c']);
+});
+
+// Question 4
+test('Question 4: reverseArray reverses array', () => {
   const testArr = [1, 2, 3, 4];
   expect(exercises.reverseArray(testArr)).toEqual([4, 3, 2, 1]);
 });
 
-// Question 2
-test('Question 2: reverseArray leaves original array unchanged', () => {
+// Question 4
+test('Question 4: reverseArray leaves original array unchanged', () => {
   const testArr = [1, 2, 3, 4];
   exercises.reverseArray(testArr);
   expect(testArr).toEqual([1, 2, 3, 4]);
 });
 
-// Question 3
-test(`Question 3: indexOf`, () => {
+// Question 5
+test(`Question 5: indexOf`, () => {
   const friends = ['carmen', 'anne', 'steph', 'mark'];
   expect(exercises.indexOf(friends, 'carmen')).toBe(0);
   expect(exercises.indexOf(friends, 'steph')).toBe(2);
   expect(exercises.indexOf(friends, 'reuben')).toBe(-1);
 });
 
-// Question 4
-test('Question 4: join', () => {
+// Question 6
+test('Question 6: join', () => {
   expect(exercises.join([true, 'reuben', 'maya', 21], '+')).toBe('true+reuben+maya+21');
   expect(exercises.join(['javascript', 'html', 'css'])).toBe('javascript,html,css');
-});
-
-// Question 5
-test('Question 5: push', () => {
-  const testArr = [true, '41', 'steph'];
-  expect(exercises.push(testArr, 'maya')).toBe(4);
-  expect(testArr).toEqual([true, '41', 'steph', 'maya']);
-});
-
-// Question 6
-test('Question 6: pop', () => {
-  const letters = ['a', 'b', 'c', 'd'];
-  expect(exercises.pop(letters)).toBe('d');
-  expect(letters).toEqual(['a', 'b', 'c']);
 });
 
 // Question 7

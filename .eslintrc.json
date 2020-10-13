@@ -18,6 +18,9 @@
       "no-console": "off",
       "func-names": "off",
       "space-before-function-paren": "off",
-      "arrow-parens": ["error", "as-needed"]
+      "quotes": "off",
+      "no-param-reassign": "off",
+      "arrow-parens": ["error", "as-needed"],
+      "no-plusplus": "off"
     }
 }
