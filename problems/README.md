@@ -6,7 +6,7 @@ For all the exercises below, you **may not** use the built in method you are try
 
 **You should test and lint after every exercise** by running:
  * `npm test` to test. You will need to run `npm install` one time first.
- * `./node_modules/.bin/eslint problems/exercises.js` to lint.
+ * `eslint problems/exercises.js` to lint. If you get an error `eslint: command not found`, run `npm install -g eslint` first.
 
 ## Exercises
 
