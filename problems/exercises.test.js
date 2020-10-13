@@ -1,5 +1,14 @@
 const exercises = require('./exercises');
 
+// Question 1
+test('Question 1: shoutout', () => {
+  global.console = { log: jest.fn() };
+  exercises.shoutout(['Ann', 1, true]);
+  expect(global.console.log).toHaveBeenCalledWith('Ann');
+  expect(global.console.log).toHaveBeenCalledWith(1);
+  expect(global.console.log).toHaveBeenCalledWith(true);
+});
+
 // Question 2
 test('Question 2: push', () => {
   const testArr = [true, '41', 'steph'];
