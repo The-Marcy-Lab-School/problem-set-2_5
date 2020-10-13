@@ -21,6 +21,7 @@
       "quotes": "off",
       "no-param-reassign": "off",
       "arrow-parens": ["error", "as-needed"],
-      "no-plusplus": "off"
+      "no-plusplus": "off",
+      "comma-dangle": "off"
     }
 }
