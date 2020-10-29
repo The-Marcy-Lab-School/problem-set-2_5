@@ -2,7 +2,7 @@
 
 ## Instructions
 
-For all the exercises below, you **may not** use the built in method you are trying to recreate. For example, you may not use the `Array.prototype.reverse` method in your implementation of `reverseArray()`. Likewise, you may not use **Array.prototype.indexOf** in your implementation of `indexOf()`. You *may* use other Array methods.
+For all the exercises below, you **may not** use the built in method you are trying to recreate. For example, you may not use the `Array.prototype.reverse` method in your implementation of `reverseArray()`. Likewise, you may not use **Array.prototype.indexOf** in your implementation of `indexOf()`. 
 
 **You should test and lint after every exercise** by running:
  * `npm test` to test. You will need to run `npm install` one time first.
