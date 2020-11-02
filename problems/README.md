@@ -2,7 +2,7 @@
 
 ## Instructions
 
-For all the exercises below, you **may not** use the built in method you are trying to recreate. For example, you may not use the `Array.prototype.reverse` method in your implementation of `reverseArray()`. Likewise, you may not use **Array.prototype.indexOf** in your implementation of `indexOf()`. Once you create an array method, you are encouraged to use it in the other functions you write. 
+For all the exercises below, you **may not** use any of the built-in [`Array.prototype` methods](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Methods). For example, you may not use the `Array.prototype.reverse` method in your implementation of `reverseArray()`. Once you create an array method, you are encouraged to use it in the other functions you write! For example, you cannot use `Array.prototype.push`, but you can use the `push()` method that you created in Question 2 for any of the other coding questions. 
 
 **You should test and lint after every exercise** by running:
  * `npm test` to test. You will need to run `npm install` one time first.
