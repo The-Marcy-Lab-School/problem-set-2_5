@@ -14,7 +14,7 @@ For all the exercises below, you **may not** use any of the built-in [`Array.pro
 * [Destructring assignment](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
 **You should test and lint after every exercise** by running:
- * `npm test` to test. You will need to run `npm install` one time first.
+ * `npm test` to test. You will need to run `npm install` first to install dependencies.
  * `eslint problems/exercises.js` to lint. If you get an error `eslint: command not found`, run `npm install -g eslint` first.
 
 ## Exercises
