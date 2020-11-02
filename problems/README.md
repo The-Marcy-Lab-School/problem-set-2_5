@@ -4,6 +4,15 @@
 
 For all the exercises below, you **may not** use any of the built-in [`Array.prototype` methods](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Methods). For example, you may not use the `Array.prototype.reverse` method in your implementation of `reverseArray()`. Once you create an array method, you are encouraged to use it in the other functions you write! For example, you cannot use `Array.prototype.push`, but you can use the `push()` method that you created in Question 2 for any of the other coding questions. 
 
+### Tools you can/should use for the following coding questions are:
+* `for` loops
+* `if` statements
+* [`Array.prototype.length`](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+* [`Array.isArray()`](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
+* [Spread syntax](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+* [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+* [Destructring assignment](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
 **You should test and lint after every exercise** by running:
  * `npm test` to test. You will need to run `npm install` one time first.
  * `eslint problems/exercises.js` to lint. If you get an error `eslint: command not found`, run `npm install -g eslint` first.
