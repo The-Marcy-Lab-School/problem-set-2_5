@@ -2,7 +2,7 @@
 
 ## Instructions
 
-For all the exercises below, you **may not** use any of the built-in [`Array.prototype` methods](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Methods). For example, you may not use the `Array.prototype.reverse` method in your implementation of `reverseArray()`. Once you create an array method, you are encouraged to use it in the other functions you write! For example, you cannot use `Array.prototype.push`, but you can use the `push()` method that you created in Question 2 for any of the other coding questions. 
+For all the exercises below, you **may not** use any of the built-in [`Array.prototype` methods](https://developer.mozilla.org/tr/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Methods). For example, you may not use the `Array.prototype.reverse()` method in your implementation of `reverseArray()`. Once you create an array method, you are encouraged to use it in the other functions you write! For example, you cannot use `Array.prototype.push()`, but you can use the `push()` method that you created in Question 2 for any of the other coding questions. 
 
 ### Tools you can/should use for the following coding questions are:
 * `for` loops
