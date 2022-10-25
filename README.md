@@ -34,4 +34,3 @@ There are two parts to this problem set:
 3. Use complete sentences and style appropriately with markdown.
 
 
-When you are done with both sections. Push your final commits and submit your URL through Canvas.
